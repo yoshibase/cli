@@ -6,3 +6,7 @@ include docs/README.md
 
 # <https://github.com/httpie/cli/issues/182>
 recursive-include tests/ *
+
+# Shell completions installed through setup.cfg data_files
+include extras/httpie-completion.fish
+include extras/fish/http.fish
